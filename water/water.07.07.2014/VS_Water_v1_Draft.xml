@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Water V1 (Draft)</h:title>
+    <model>
+      <instance>
+        <VS_Water_full_v1 id="water_v1_draft" version="1">
+          <start/>
+          <end/>
+          <today/>
+          <metadata>
+            <meta_display>
+              <country/>
+              <sample_note/>
+              <analysts_name/>
+            </meta_display>
+          </metadata>
+          <calibration/>
+          <cl1_grp>
+            <cl1_1>yes</cl1_1>
+            <cl1_2>yes</cl1_2>
+            <cl2_1>yes</cl2_1>
+            <cl2_2>yes</cl2_2>
+            <cl2_temp/>
+          </cl1_grp>
+          <water_smp_rpt jr:template="">
+            <water_smp_grp>
+              <water_smp_note/>
+              <water_smp_code/>
+              <water_smp_ph/>
+              <water_smp_cdty/>
+              <water_smp_no3/>
+              <water_smp_po4/>
+              <ws1_1/>
+              <ws1_mpn/>
+            </water_smp_grp>
+          </water_smp_rpt>
+          <meta>
+            <instanceID/>
+          </meta>
+        </VS_Water_full_v1>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/VS_Water_full_v1/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/VS_Water_full_v1/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/VS_Water_full_v1/today" type="date"/>
+      <bind nodeset="/VS_Water_full_v1/metadata/meta_display/country" required="true()" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/metadata/meta_display/sample_note" type="string"/>
+      <bind nodeset="/VS_Water_full_v1/metadata/meta_display/analysts_name" type="string"/>
+      <bind nodeset="/VS_Water_full_v1/calibration" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Water_full_v1/cl1_grp/cl1_1" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/cl1_grp/cl1_2" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/cl1_grp/cl2_1" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/cl1_grp/cl2_2" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/cl1_grp/cl2_temp" required="true()" type="decimal"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_note" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_code" required="true()" type="string"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_ph" required="true()" type="decimal"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_cdty" type="decimal"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_no3" type="decimal"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_po4" type="decimal"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/ws1_1" required="true()" type="select1"/>
+      <bind nodeset="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/ws1_mpn" type="decimal"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/VS_Water_full_v1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/VS_Water_full_v1/metadata">
+      <group appearance="field-list" ref="/VS_Water_full_v1/metadata/meta_display">
+        <select1 ref="/VS_Water_full_v1/metadata/meta_display/country">
+          <label>Country</label>
+          <item>
+            <label>Ghana</label>
+            <value>GHA</value>
+          </item>
+          <item>
+            <label>Tanzania</label>
+            <value>TZA</value>
+          </item>
+        </select1>
+        <input ref="/VS_Water_full_v1/metadata/meta_display/sample_note">
+          <label>Sample Note</label>
+          <hint>Optional</hint>
+        </input>
+        <input ref="/VS_Water_full_v1/metadata/meta_display/analysts_name">
+          <label>Analysts Name</label>
+          <hint>Optional</hint>
+        </input>
+      </group>
+    </group>
+    <input ref="/VS_Water_full_v1/calibration">
+      <label>CALIBRATION OF INSTRUMENT</label>
+      <hint>except for recording water temperature, one should tick off each step of calibration process.</hint>
+    </input>
+    <group appearance="field-list" ref="/VS_Water_full_v1/cl1_grp">
+      <select1 ref="/VS_Water_full_v1/cl1_grp/cl1_1">
+        <label>EC Calibration</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>0</value>
+        </item>
+      </select1>
+      <select1 ref="/VS_Water_full_v1/cl1_grp/cl1_2">
+        <label>PO4 Blank</label>
+        <item>
+          <label>Yes</label>
+          <value>1</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>0</value>
+        </item>
+      </select1>
+      <select1 ref="/VS_Water_full_v1/cl1_grp/cl2_1">
+        <label>PH Calibration</label>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>7</label>
+          <value>7</value>
+        </item>
+      </select1>
+      <select1 ref="/VS_Water_full_v1/cl1_grp/cl2_2">
+        <label>NO3 Calibration</label>
+        <item>
+          <label>High</label>
+          <value>high</value>
+        </item>
+        <item>
+          <label>Low</label>
+          <value>low</value>
+        </item>
+      </select1>
+      <input ref="/VS_Water_full_v1/cl1_grp/cl2_temp">
+        <label>Recorded Water Temperature(degrees C)</label>
+      </input>
+    </group>
+    <group ref="/VS_Water_full_v1/water_smp_rpt">
+      <label></label>
+      <repeat nodeset="/VS_Water_full_v1/water_smp_rpt">
+        <group appearance="field-list" ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp">
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_note">
+            <label>WATER SAMPLE DATA</label>
+          </input>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_code">
+            <label>Sample Code</label>
+          </input>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_ph">
+            <label>pH</label>
+          </input>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_cdty">
+            <label>Conductivity (mS/m)</label>
+          </input>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_no3">
+            <label>NO3 (mg/l)</label>
+          </input>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/water_smp_po4">
+            <label>PO4 (mg/l)</label>
+          </input>
+          <select1 ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/ws1_1">
+            <label>Ecoli</label>
+            <hint>Tick if colour has changed in each compartment</hint>
+            <item>
+              <label>10ml</label>
+              <value>10ml</value>
+            </item>
+            <item>
+              <label>30ml</label>
+              <value>30ml</value>
+            </item>
+            <item>
+              <label>56ml</label>
+              <value>56ml</value>
+            </item>
+            <item>
+              <label>3ml</label>
+              <value>3ml</value>
+            </item>
+            <item>
+              <label>1ml</label>
+              <value>1ml</value>
+            </item>
+          </select1>
+          <input ref="/VS_Water_full_v1/water_smp_rpt/water_smp_grp/ws1_mpn">
+            <label>MPN Per 100 ml</label>
+          </input>
+        </group>
+      </repeat>
+    </group>
+  </h:body>
+</h:html>
