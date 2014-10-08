@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:orx="http://openrosa.org/xforms/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Vital Signs Soil Sample Analysis Survey – 15 September 2014 v1</h:title>
+    <model>
+      <instance>
+        <VS_Soil_Sample_15.09.2014_v1 id="soil_sample_15_sept_2014_v1" version="1">
+          <start/>
+          <end/>
+          <today/>
+          <metadata>
+            <meta_display>
+              <country/>
+              <plot_id/>
+              <analysts_fname/>
+              <analysts_lname/>
+              <scribe_fname/>
+              <scribe_lname/>
+              <data_entry_date/>
+            </meta_display>
+          </metadata>
+          <corner_1se/>
+          <cr1_grp>
+            <top_depth/>
+            <dp1_grp>
+              <top_depth_sample>yes</top_depth_sample>
+              <top_tin_dry_weight>yes</top_tin_dry_weight>
+              <top_sample_bag_label/>
+              <top_total_dry_weight>yes</top_total_dry_weight>
+              <top_fine_dry_weight>yes</top_fine_dry_weight>
+              <top_coarse_dry_weight>yes</top_coarse_dry_weight>
+            </dp1_grp>
+            <subsoil_depth/>
+            <ddp1_grp>
+              <subsoil_moisture_tin_id>yes</subsoil_moisture_tin_id>
+              <subsoil_tin_dry_weight>yes</subsoil_tin_dry_weight>
+              <subsoil_sample_bag_label/>
+              <subsoil_total_dry_weight>yes</subsoil_total_dry_weight>
+              <subsoil_fine_dry_weight>yes</subsoil_fine_dry_weight>
+              <subsoil_coarse_dry_weight>yes</subsoil_coarse_dry_weight>
+            </ddp1_grp>
+            <s_50_80_depth/>
+            <dddp1_grp>
+              <s_50_80_moisture_tin_id>yes</s_50_80_moisture_tin_id>
+              <s_50_80_tin_dry_weight>yes</s_50_80_tin_dry_weight>
+              <s_50_80_sample_bag_label/>
+              <s_50_80_total_dry_weight>yes</s_50_80_total_dry_weight>
+              <s_50_80_fine_dry_weight>yes</s_50_80_fine_dry_weight>
+              <s_50_80_coarse_dry_weight>yes</s_50_80_coarse_dry_weight>
+            </dddp1_grp>
+            <s_80_100_depth/>
+            <ddddp1_grp>
+              <s_80_100_moisture_tin_id>yes</s_80_100_moisture_tin_id>
+              <s_80_100_tin_dry_weight>yes</s_80_100_tin_dry_weight>
+              <s_80_100_sample_bag_label/>
+              <s_80_100_total_dry_weight>yes</s_80_100_total_dry_weight>
+              <s_80_100_fine_dry_weight>yes</s_80_100_fine_dry_weight>
+              <s_80_100_coarse_dry_weight>yes</s_80_100_coarse_dry_weight>
+            </ddddp1_grp>
+          </cr1_grp>
+          <corner_6sw/>
+          <cr2_grp>
+            <top_depth_6sw/>
+            <dp1_grp_6sw>
+              <top_depth_sample_6sw>yes</top_depth_sample_6sw>
+              <top_tin_dry_weight_6sw>yes</top_tin_dry_weight_6sw>
+              <top_sample_bag_label_6sw/>
+              <top_total_dry_weight_6sw>yes</top_total_dry_weight_6sw>
+              <top_fine_dry_weight_6sw>yes</top_fine_dry_weight_6sw>
+              <top_coarse_dry_weight_6sw>yes</top_coarse_dry_weight_6sw>
+            </dp1_grp_6sw>
+            <subsoil_depth_6sw/>
+            <ddp1_grp_6sw>
+              <subsoil_moisture_tin_id_6sw>yes</subsoil_moisture_tin_id_6sw>
+              <subsoil_tin_dry_weight_6sw>yes</subsoil_tin_dry_weight_6sw>
+              <subsoil_sample_bag_label_6sw/>
+              <subsoil_total_dry_weight_6sw>yes</subsoil_total_dry_weight_6sw>
+              <subsoil_fine_dry_weight_6sw>yes</subsoil_fine_dry_weight_6sw>
+              <subsoil_coarse_dry_weight_6sw>yes</subsoil_coarse_dry_weight_6sw>
+            </ddp1_grp_6sw>
+          </cr2_grp>
+          <corner_11nw/>
+          <cr3_grp>
+            <top_depth_11nw/>
+            <dp1_grp_11nw>
+              <top_depth_sample_11nw>yes</top_depth_sample_11nw>
+              <top_tin_dry_weight_11nw>yes</top_tin_dry_weight_11nw>
+              <top_sample_bag_label_11nw/>
+              <top_total_dry_weight_11nw>yes</top_total_dry_weight_11nw>
+              <top_fine_dry_weight_11nw>yes</top_fine_dry_weight_11nw>
+              <top_coarse_dry_weight_11nw>yes</top_coarse_dry_weight_11nw>
+            </dp1_grp_11nw>
+            <subsoil_depth_11nw/>
+            <ddp1_grp_11nw>
+              <subsoil_moisture_tin_id_11nw>yes</subsoil_moisture_tin_id_11nw>
+              <subsoil_tin_dry_weight_11nw>yes</subsoil_tin_dry_weight_11nw>
+              <subsoil_sample_bag_label_11nw/>
+              <subsoil_total_dry_weight_11nw>yes</subsoil_total_dry_weight_11nw>
+              <subsoil_fine_dry_weight_11nw>yes</subsoil_fine_dry_weight_11nw>
+              <subsoil_coarse_dry_weight_11nw>yes</subsoil_coarse_dry_weight_11nw>
+            </ddp1_grp_11nw>
+          </cr3_grp>
+          <corner_16ne/>
+          <cr4_grp>
+            <top_depth_16ne/>
+            <dp1_grp_16ne>
+              <top_depth_sample_16ne>yes</top_depth_sample_16ne>
+              <top_tin_dry_weight_16ne>yes</top_tin_dry_weight_16ne>
+              <top_sample_bag_label_16ne/>
+              <top_total_dry_weight_16ne>yes</top_total_dry_weight_16ne>
+              <top_fine_dry_weight_16ne>yes</top_fine_dry_weight_16ne>
+              <top_coarse_dry_weight_16ne>yes</top_coarse_dry_weight_16ne>
+            </dp1_grp_16ne>
+            <subsoil_depth_16ne/>
+            <ddp1_grp_16ne>
+              <subsoil_moisture_tin_id_16ne>yes</subsoil_moisture_tin_id_16ne>
+              <subsoil_tin_dry_weight_16ne>yes</subsoil_tin_dry_weight_16ne>
+              <subsoil_sample_bag_label_16ne/>
+              <subsoil_total_dry_weight_16ne>yes</subsoil_total_dry_weight_16ne>
+              <subsoil_fine_dry_weight_16ne>yes</subsoil_fine_dry_weight_16ne>
+              <subsoil_coarse_dry_weight_16ne>yes</subsoil_coarse_dry_weight_16ne>
+            </ddp1_grp_16ne>
+          </cr4_grp>
+          <meta>
+            <instanceID/>
+          </meta>
+        </VS_Soil_Sample_15.09.2014_v1>
+      </instance>
+      <bind jr:preload="timestamp" jr:preloadParams="start" nodeset="/VS_Soil_Sample_15.09.2014_v1/start" type="dateTime"/>
+      <bind jr:preload="timestamp" jr:preloadParams="end" nodeset="/VS_Soil_Sample_15.09.2014_v1/end" type="dateTime"/>
+      <bind jr:preload="date" jr:preloadParams="today" nodeset="/VS_Soil_Sample_15.09.2014_v1/today" type="date"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/country" required="true()" type="select1"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/plot_id" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/analysts_fname" required="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/analysts_lname" required="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/scribe_fname" required="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/scribe_lname" required="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/data_entry_date" type="date"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/corner_1se" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/top_depth" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_depth_sample" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_tin_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_sample_bag_label" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_total_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_fine_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_coarse_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/subsoil_depth" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_moisture_tin_id" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_tin_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_sample_bag_label" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_total_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_fine_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_coarse_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/s_50_80_depth" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_moisture_tin_id" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_tin_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_sample_bag_label" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_total_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_fine_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_coarse_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/s_80_100_depth" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_moisture_tin_id" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_tin_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_sample_bag_label" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_total_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_fine_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_coarse_dry_weight" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/corner_6sw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/top_depth_6sw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_depth_sample_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_tin_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_sample_bag_label_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_total_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_fine_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_coarse_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/subsoil_depth_6sw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_moisture_tin_id_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_tin_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_sample_bag_label_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_total_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_fine_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_coarse_dry_weight_6sw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/corner_11nw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/top_depth_11nw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_depth_sample_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_tin_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_sample_bag_label_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_total_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_fine_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_coarse_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/subsoil_depth_11nw" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_moisture_tin_id_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_tin_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_sample_bag_label_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_total_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_fine_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_coarse_dry_weight_11nw" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/corner_16ne" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/top_depth_16ne" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_depth_sample_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_tin_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_sample_bag_label_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_total_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_fine_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_coarse_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/subsoil_depth_16ne" readonly="true()" type="string"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_moisture_tin_id_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_tin_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_sample_bag_label_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_total_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_fine_dry_weight_16ne" type="decimal"/>
+      <bind nodeset="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_coarse_dry_weight_16ne" type="decimal"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/VS_Soil_Sample_15.09.2014_v1/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/VS_Soil_Sample_15.09.2014_v1/metadata">
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display">
+        <select1 ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/country">
+          <label>Country</label>
+          <item>
+            <label>Ghana</label>
+            <value>GHA</value>
+          </item>
+          <item>
+            <label>Tanzania</label>
+            <value>TZA</value>
+          </item>
+        </select1>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/plot_id">
+          <label>Plot ID #</label>
+          <hint>Optional</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/analysts_fname">
+          <label>Analysts First Name</label>
+          <hint>First Name of person Weighing Samples</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/analysts_lname">
+          <label>Analysts Last Name (Others)</label>
+          <hint>Last Name of person Weighing Samples</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/scribe_fname">
+          <label>Scribe First Name</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/scribe_lname">
+          <label>Scibe Last Name (Others)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/metadata/meta_display/data_entry_date">
+          <label>Date of Weighing dried samples</label>
+        </input>
+      </group>
+    </group>
+    <input ref="/VS_Soil_Sample_15.09.2014_v1/corner_1se">
+      <label>CORNER 1 (SE)</label>
+    </input>
+    <group ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp">
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/top_depth">
+        <label>TOP SOIL ( 0 – 20 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_depth_sample">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_tin_dry_weight">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>( to nearest 1.0 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_sample_bag_label">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_total_dry_weight">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_fine_dry_weight">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dp1_grp/top_coarse_dry_weight">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/subsoil_depth">
+        <label>SUB SOIL ( 20 – 50 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_moisture_tin_id">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_tin_dry_weight">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_sample_bag_label">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_total_dry_weight">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_fine_dry_weight">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddp1_grp/subsoil_coarse_dry_weight">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/s_50_80_depth">
+        <label>( 50 – 80 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_moisture_tin_id">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_tin_dry_weight">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_sample_bag_label">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_total_dry_weight">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_fine_dry_weight">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/dddp1_grp/s_50_80_coarse_dry_weight">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/s_80_100_depth">
+        <label>( 80 – 100 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_moisture_tin_id">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_tin_dry_weight">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_sample_bag_label">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_total_dry_weight">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_fine_dry_weight">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr1_grp/ddddp1_grp/s_80_100_coarse_dry_weight">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+    </group>
+    <input ref="/VS_Soil_Sample_15.09.2014_v1/corner_6sw">
+      <label>CORNER 6 (SW)</label>
+    </input>
+    <group ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp">
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/top_depth_6sw">
+        <label>TOP SOIL ( 0 – 20 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_depth_sample_6sw">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_tin_dry_weight_6sw">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>( to nearest 1.0 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_sample_bag_label_6sw">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_total_dry_weight_6sw">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_fine_dry_weight_6sw">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/dp1_grp_6sw/top_coarse_dry_weight_6sw">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/subsoil_depth_6sw">
+        <label>SUB SOIL ( 20 – 50 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_moisture_tin_id_6sw">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_tin_dry_weight_6sw">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_sample_bag_label_6sw">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_total_dry_weight_6sw">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_fine_dry_weight_6sw">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr2_grp/ddp1_grp_6sw/subsoil_coarse_dry_weight_6sw">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+    </group>
+    <input ref="/VS_Soil_Sample_15.09.2014_v1/corner_11nw">
+      <label>CORNER 11 (NW)</label>
+    </input>
+    <group ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp">
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/top_depth_11nw">
+        <label>TOP SOIL ( 0 – 20 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_depth_sample_11nw">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_tin_dry_weight_11nw">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>( to nearest 1.0 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_sample_bag_label_11nw">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_total_dry_weight_11nw">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_fine_dry_weight_11nw">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/dp1_grp_11nw/top_coarse_dry_weight_11nw">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/subsoil_depth_11nw">
+        <label>SUB SOIL ( 20 – 50 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_moisture_tin_id_11nw">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_tin_dry_weight_11nw">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_sample_bag_label_11nw">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_total_dry_weight_11nw">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_fine_dry_weight_11nw">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr3_grp/ddp1_grp_11nw/subsoil_coarse_dry_weight_11nw">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+    </group>
+    <input ref="/VS_Soil_Sample_15.09.2014_v1/corner_16ne">
+      <label>CORNER 16 (NE)</label>
+    </input>
+    <group ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp">
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/top_depth_16ne">
+        <label>TOP SOIL ( 0 – 20 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_depth_sample_16ne">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_tin_dry_weight_16ne">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>( to nearest 1.0 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_sample_bag_label_16ne">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_total_dry_weight_16ne">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_fine_dry_weight_16ne">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>( to nearest 0.1 g )</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/dp1_grp_16ne/top_coarse_dry_weight_16ne">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+      <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/subsoil_depth_16ne">
+        <label>SUB SOIL ( 20 – 50 ) Depth (cm)</label>
+      </input>
+      <group appearance="field-list" ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne">
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_moisture_tin_id_16ne">
+          <label>Depth to Sampling Restriction if any (cm)</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_tin_dry_weight_16ne">
+          <label>Total Weight of Cumulative Mass Sample (g)</label>
+          <hint>to nearest 0.1 g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_sample_bag_label_16ne">
+          <label>Soil Moisture Tin ID #</label>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_total_dry_weight_16ne">
+          <label>Weight of Soil Moisture Tin</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_fine_dry_weight_16ne">
+          <label>Weight of Soil Moisture Tin + Fresh Soil sub Sample</label>
+          <hint>to nearest g</hint>
+        </input>
+        <input ref="/VS_Soil_Sample_15.09.2014_v1/cr4_grp/ddp1_grp_16ne/subsoil_coarse_dry_weight_16ne">
+          <label>Hand Texture</label>
+          <hint>to nearest g</hint>
+        </input>
+      </group>
+    </group>
+  </h:body>
+</h:html>
